@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="junit test results" tests="21" failures="16" errors="0" time="2.286">
+  <testsuite name="Introduction to CSS basics" errors="0" failures="16" skipped="0" timestamp="2025-10-06T15:39:44" time="2.227" tests="21">
+    <testcase classname="Introduction to CSS basics html page should be valid" name="Introduction to CSS basics html page should be valid" time="0.273">
+    </testcase>
+    <testcase classname="Introduction to CSS basics Add existing styles should add styles file" name="Introduction to CSS basics Add existing styles should add styles file" time="0.048">
+    </testcase>
+    <testcase classname="Introduction to CSS basics Add existing styles should have &lt;style&gt; tag as the first child of the &lt;body&gt;" name="Introduction to CSS basics Add existing styles should have &lt;style&gt; tag as the first child of the &lt;body&gt;" time="0.037">
+    </testcase>
+    <testcase classname="Introduction to CSS basics Add existing styles &lt;style&gt; tag should have styles for &lt;nav&gt;" name="Introduction to CSS basics Add existing styles &lt;style&gt; tag should have styles for &lt;nav&gt;" time="0.037">
+    </testcase>
+    <testcase classname="Introduction to CSS basics Add existing styles should have inline style for the &lt;h2&gt; inside &lt;nav&gt;" name="Introduction to CSS basics Add existing styles should have inline style for the &lt;h2&gt; inside &lt;nav&gt;" time="0.03">
+    </testcase>
+    <testcase classname="Introduction to CSS basics Basic styling &lt;body&gt; should have correct font family" name="Introduction to CSS basics Basic styling &lt;body&gt; should have correct font family" time="0.027">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Arial,Helvetica,sans-serif&quot;
+Received: &quot;&quot;
+    at Object.toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:98:22)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Basic styling &lt;body&gt; should have correct font size" name="Introduction to CSS basics Basic styling &lt;body&gt; should have correct font size" time="0.019">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;16px&quot;
+Received: &quot;&quot;
+    at Object.toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:108:22)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Basic styling &lt;h2&gt; should have correct styles for the #0 &lt;h2&gt;" name="Introduction to CSS basics Basic styling &lt;h2&gt; should have correct styles for the #0 &lt;h2&gt;" time="0.025">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  3
++ Received  + 19
+
+- ObjectContaining {
+-   &quot;color&quot;: &quot;rgb(48, 48, 48)&quot;,
+-   &quot;font-size&quot;: &quot;1.5rem&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;display&quot;,
++   &quot;1&quot;: &quot;font-size&quot;,
++   &quot;2&quot;: &quot;font-weight&quot;,
++   &quot;3&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;display&quot;: &quot;&quot;,
++     &quot;font-size&quot;: &quot;&quot;,
++     &quot;font-weight&quot;: &quot;&quot;,
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 4,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;display&quot;: &quot;block&quot;,
++     &quot;font-size&quot;: &quot;1.5em&quot;,
++     &quot;font-weight&quot;: &quot;bold&quot;,
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:119:41)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Basic styling &lt;h2&gt; should have correct styles for the #1 &lt;h2&gt;" name="Introduction to CSS basics Basic styling &lt;h2&gt; should have correct styles for the #1 &lt;h2&gt;" time="0.024">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  3
++ Received  + 19
+
+- ObjectContaining {
+-   &quot;color&quot;: &quot;rgb(48, 48, 48)&quot;,
+-   &quot;font-size&quot;: &quot;1.5rem&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;display&quot;,
++   &quot;1&quot;: &quot;font-size&quot;,
++   &quot;2&quot;: &quot;font-weight&quot;,
++   &quot;3&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;display&quot;: &quot;&quot;,
++     &quot;font-size&quot;: &quot;&quot;,
++     &quot;font-weight&quot;: &quot;&quot;,
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 4,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;display&quot;: &quot;block&quot;,
++     &quot;font-size&quot;: &quot;1.5em&quot;,
++     &quot;font-weight&quot;: &quot;bold&quot;,
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:119:41)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Basic styling &lt;h2&gt; should have correct styles for the #2 &lt;h2&gt;" name="Introduction to CSS basics Basic styling &lt;h2&gt; should have correct styles for the #2 &lt;h2&gt;" time="0.023">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  3
++ Received  + 19
+
+- ObjectContaining {
+-   &quot;color&quot;: &quot;rgb(48, 48, 48)&quot;,
+-   &quot;font-size&quot;: &quot;1.5rem&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;display&quot;,
++   &quot;1&quot;: &quot;font-size&quot;,
++   &quot;2&quot;: &quot;font-weight&quot;,
++   &quot;3&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;display&quot;: &quot;&quot;,
++     &quot;font-size&quot;: &quot;&quot;,
++     &quot;font-weight&quot;: &quot;&quot;,
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 4,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;display&quot;: &quot;block&quot;,
++     &quot;font-size&quot;: &quot;1.5em&quot;,
++     &quot;font-weight&quot;: &quot;bold&quot;,
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:119:41)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Basic styling &lt;h2&gt; should have correct styles for the #3 &lt;h2&gt;" name="Introduction to CSS basics Basic styling &lt;h2&gt; should have correct styles for the #3 &lt;h2&gt;" time="0.028">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  3
++ Received  + 19
+
+- ObjectContaining {
+-   &quot;color&quot;: &quot;rgb(48, 48, 48)&quot;,
+-   &quot;font-size&quot;: &quot;1.5rem&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;display&quot;,
++   &quot;1&quot;: &quot;font-size&quot;,
++   &quot;2&quot;: &quot;font-weight&quot;,
++   &quot;3&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;display&quot;: &quot;&quot;,
++     &quot;font-size&quot;: &quot;&quot;,
++     &quot;font-weight&quot;: &quot;&quot;,
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 4,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;display&quot;: &quot;block&quot;,
++     &quot;font-size&quot;: &quot;1.5em&quot;,
++     &quot;font-weight&quot;: &quot;bold&quot;,
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:119:41)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Basic styling should have correct styles for elements with class &quot;quote&quot;" name="Introduction to CSS basics Basic styling should have correct styles for elements with class &quot;quote&quot;" time="0.025">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  4
++ Received  + 13
+
+- ObjectContaining {
+-   &quot;color&quot;: &quot;darkslategrey&quot;,
+-   &quot;font-style&quot;: &quot;italic&quot;,
+-   &quot;font-weight&quot;: &quot;bold&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;display&quot;,
++   &quot;1&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;display&quot;: &quot;&quot;,
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 2,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;display&quot;: &quot;inline&quot;,
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at Object.toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:132:39)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Basic styling should have correct styles for element with id &quot;main-image&quot;" name="Introduction to CSS basics Basic styling should have correct styles for element with id &quot;main-image&quot;" time="0.025">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  2
++ Received  + 10
+
+- ObjectContaining {
+-   &quot;border&quot;: &quot;5px solid slateblue&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 1,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at Object.toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:145:39)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Basic styling should have correct styles for all &lt;ol&gt;" name="Introduction to CSS basics Basic styling should have correct styles for all &lt;ol&gt;" time="0.02">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  2
++ Received  + 16
+
+- ObjectContaining {
+-   &quot;list-style-type&quot;: &quot;upper-roman&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;display&quot;,
++   &quot;1&quot;: &quot;list-style-type&quot;,
++   &quot;2&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;display&quot;: &quot;&quot;,
++     &quot;list-style-type&quot;: &quot;&quot;,
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 3,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;display&quot;: &quot;block&quot;,
++     &quot;list-style-type&quot;: &quot;decimal&quot;,
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at Object.toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:156:39)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Links styling should have correct styles for a link #0" name="Introduction to CSS basics Links styling should have correct styles for a link #0" time="0.022">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  2
++ Received  + 10
+
+- ObjectContaining {
+-   &quot;color&quot;: &quot;dodgerblue&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 1,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:170:39)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Links styling should have correct styles for a link #1" name="Introduction to CSS basics Links styling should have correct styles for a link #1" time="0.027">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  2
++ Received  + 10
+
+- ObjectContaining {
+-   &quot;color&quot;: &quot;dodgerblue&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 1,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:170:39)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Links styling should have correct styles for a link #2" name="Introduction to CSS basics Links styling should have correct styles for a link #2" time="0.024">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  2
++ Received  + 10
+
+- ObjectContaining {
+-   &quot;color&quot;: &quot;dodgerblue&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 1,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:170:39)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Links styling should have correct styles for a link #3" name="Introduction to CSS basics Links styling should have correct styles for a link #3" time="0.025">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  2
++ Received  + 10
+
+- ObjectContaining {
+-   &quot;color&quot;: &quot;dodgerblue&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 1,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:170:39)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Links styling should have correct styles for a link #4" name="Introduction to CSS basics Links styling should have correct styles for a link #4" time="0.022">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  -  2
++ Received  + 10
+
+- ObjectContaining {
+-   &quot;color&quot;: &quot;dodgerblue&quot;,
++ CSSStyleDeclaration {
++   &quot;0&quot;: &quot;visibility&quot;,
++   &quot;_importants&quot;: Object {
++     &quot;visibility&quot;: undefined,
++   },
++   &quot;_length&quot;: 1,
++   &quot;_onChange&quot;: [Function anonymous],
++   &quot;_values&quot;: Object {
++     &quot;visibility&quot;: &quot;visible&quot;,
++   },
+  }
+    at toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:170:39)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Links styling should have correct styles for a visited links" name="Introduction to CSS basics Links styling should have correct styles for a visited links" time="0.015">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: ObjectContaining {&quot;color&quot;: &quot;violet&quot;}
+Received: null
+    at Object.toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:180:38)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Introduction to CSS basics Links styling should have correct styles for a hovered links" name="Introduction to CSS basics Links styling should have correct styles for a hovered links" time="0.016">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: ObjectContaining {&quot;color&quot;: &quot;mediumseagreen&quot;}
+Received: null
+    at Object.toEqual (C:\Users\Ma__sh__ka\WebstormProjects\introduction-to-css-basics\src\index.test.js:190:38)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
